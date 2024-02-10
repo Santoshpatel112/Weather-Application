@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Application</title>
+<link rel="stylesheet" href="style.css">//link css file//
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1779/1779940.png">//link favicon and image taken form google image address
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>//external refrence for taking search icon from remix icon
+
+</head>
+<body class="body">
+    <div class="main">
+        <div class="serach-bar">
+            <input type="text" placeholder="Enter Your City Name" class="input" id="in">
+            <i class="ri-search-line" id="search"></i>
+        </div>
+        <div class="details"><img src="drizzle.png" alt="" class="images">
+        </div>
+        <h1 id="city">Ghaziabad</h1>
+        <h2 id="temp">10&#176;c</h2>
+        <div class="bottom">
+            <div class="humidity">
+                <img src="humidity.png" alt="">
+                <span>
+                <p id="hum">Humidity</p>
+                <p id="humper">65%</p>
+                </span>
+            </div>
+            <div class="wind">
+                <img src="wind.png" alt="">
+                <span>
+                <p id="hum">wind-speed</p>
+                <p id="windper">7.12km/h</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>//atteched javascript file
+</html>
